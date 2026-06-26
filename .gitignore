@@ -1,0 +1,38 @@
+# Build directories (CMake / CLion)
+build/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+CTestTestfile.cmake
+_deps/
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+sound_processor
+test_sound_processor
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE: JetBrains / CLion
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Temporary / logs
+*.log
+*.tmp
